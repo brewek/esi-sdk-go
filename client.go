@@ -15,7 +15,7 @@ const (
 	host      = "esi.tech.ccp.is"
 	version   = "latest"
 	urlBase   = protocol + "://" + host + "/" + version
-	userAgent = "goESISDK"
+	userAgent = "esi-sdk-go"
 	source    = "tranquility"
 	timeout   = 5 * time.Second
 )
